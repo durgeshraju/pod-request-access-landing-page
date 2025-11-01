@@ -1,0 +1,22 @@
+
+//===================================
+// Design token maps
+//===================================
+
+// This file groups individual tokens (from _colors.scss)
+// into structured Sass maps. These maps can later be
+// accessed with map-get() or helper functions (e.g. color()).
+
+@use 'colors' as *;
+
+// Color map
+
+$colors: (
+  primary: $green,
+  error: $red,
+  white: $white,
+  blue-950: $blue-950,
+  blue-900: $blue-900,
+  blue-600: $blue-600,
+  blue-300: $blue-300
+);
