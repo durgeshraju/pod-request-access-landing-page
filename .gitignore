@@ -3,8 +3,7 @@
 # ==============================
 
 # 1️⃣  Sass / SCSS build outputs
-/css/style.css          # compiled CSS (regenerate using Sass)
-/.sass-cache/           # temporary cache folder created by Sass
+/css/*.css*
 
 # 2️⃣  Node modules (if you install sass locally)
 node_modules/
