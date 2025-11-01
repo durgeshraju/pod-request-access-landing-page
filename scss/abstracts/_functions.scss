@@ -1,0 +1,17 @@
+
+// ==========================================
+// ⚙️ Utility Functions
+// ==========================================
+// Provides helper functions for retrieving values
+// from design-token maps (e.g., colors).
+
+
+@use 'maps' as *;
+
+@function color($key){
+    @if map-has-key($colors , $key){
+        @return map-get($colors , $key);
+    } @else {
+        @error "Unknown color `#{$key}`. Check your $colors map.";
+    }
+}
