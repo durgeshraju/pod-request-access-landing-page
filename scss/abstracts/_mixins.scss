@@ -1,0 +1,17 @@
+
+// abstracts/_mixins.scss
+// ============================================
+// ♻️ Reusable Mixins
+// ============================================
+
+// Typography mixin
+
+// @mixin text-styles($weight: 500,){
+//     font-weight: $weight;
+// }
+
+@mixin font-base($weight: 500, $size: 1rem, $align: left){
+    font-weight: $weight;    
+    font-size: $size;
+    text-align: $align;
+}
