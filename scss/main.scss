@@ -1,6 +1,18 @@
+// =======================================
+// Global foundation
+// =======================================
+
+// #1 Reset - removes browser default styles
+@use 'base/reset';
+
+// #2 Base - sets project-wide defaults (body, typography, etc.)
+@use 'base/base';
+
+// #3 Utilities - helper classes
+@use 'base/utilities';
+
 
 // =======================================
 // Components
 // =======================================
-
 @use 'components/button';
