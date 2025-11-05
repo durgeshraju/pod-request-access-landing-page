@@ -1,0 +1,14 @@
+
+@use '../abstracts/functions' as *;
+
+@import url('https://fonts.googleapis.com/css2?family=Chivo:wght@300;400;700&display=swap');
+
+// Body reset
+
+body {
+  min-height: 100vh;
+  text-rendering: optimizeSpeed;
+  font-family: 'Chivo', sans-serif;
+  background-color: color('blue-950');
+  color: color('blue-300')
+}
