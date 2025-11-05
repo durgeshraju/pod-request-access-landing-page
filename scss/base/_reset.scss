@@ -1,0 +1,81 @@
+// ============================================
+// 🧹 Global Reset (Minimal & Modern)
+// ============================================
+// Purpose: Provide a consistent baseline across browsers
+// - Remove default margins/paddings
+// - Normalize font sizing and box sizing
+// - Make elements behave predictably
+
+// 1️. Universal box sizing
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+// 2️. Remove default margin/padding
+* {
+  margin: 0;
+  padding: 0;
+}
+
+// 3️. Set default line-height and text rendering
+html {
+  line-height: 1.5;
+  -webkit-text-size-adjust: 100%; // prevent iOS font-size scaling
+  scroll-behavior: smooth;
+}
+
+// 4. Reset images and media
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+}
+
+// 5. Remove built-in form styles
+input,
+button,
+textarea,
+select {
+  font: inherit;
+  color: inherit;
+  background: none;
+  border: none;
+  outline: none;
+}
+
+// 6. Buttons and links cleanup
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+button {
+  cursor: pointer;
+  background: none;
+  border: none;
+}
+
+// 7. Remove list styles
+ul,
+ol {
+  list-style: none;
+  padding: 0;
+}
+
+// 8. Headings inherit font styles
+h1, h2, h3, h4, h5, h6 {
+  font: inherit;
+  font-weight: 700;
+  line-height: 1.2;
+}
+
+// 9. Remove quotes from blockquotes & q
+blockquote,
+q {
+  quotes: none;
+}
